@@ -119,10 +119,27 @@ const Projects = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
+        </div>
+
+        <div className="max-w-screen-md mx-auto">
+          <Button
+            variant="outline"
+            className="rounded-full shadow-none w-full"
+            asChild
+          >
+            <a
+              href={"https://github.com/Ariel-joe/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GithubLogo className="mr-1 h-4 w-4" />
+              View my github for More Projects
+            </a>
+          </Button>
         </div>
       </div>
     </section>
