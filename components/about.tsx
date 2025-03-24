@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { Download } from "lucide-react";
+// import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
 import { GithubLogo } from "./icons";
