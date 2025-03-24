@@ -1,10 +1,10 @@
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 // import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
-import { GithubLogo } from "./icons";
+// import { GithubLogo } from "./icons";
 
 const About = () => {
   return (
@@ -30,10 +30,10 @@ const About = () => {
               community.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
+              {/* <Button className="rounded-full">
                 <GithubLogo />
                 View Github
-              </Button>
+              </Button> */}
               {/* <Button variant="outline" className="rounded-full">
                 <Download />
                 Download CV

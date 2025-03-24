@@ -16,6 +16,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: "Ariel Joe Portfolio - Beautiful Shadcn UI Landing Page",
   description: "Ariel Joe is a full stack software engineer.",
+  icons: "/unofficial-logo-rm-bg.png"
 };
 
 export default function RootLayout({
