@@ -23,10 +23,9 @@ const About = () => {
               Passionate about creating impactful web experiences
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
-              With over 5 years of experience in full-stack development, I
+              With over 2 years of experience in full-stack development, I
               specialize in building scalable web applications using modern
-              technologies. My expertise includes React, Node.js, and cloud
-              architecture. I&apos;m passionate about creating elegant solutions
+              technologies. I&apos;m passionate about creating elegant solutions
               to complex problems and sharing knowledge with the developer
               community.
             </p>
@@ -35,10 +34,10 @@ const About = () => {
                 <GithubLogo />
                 View Github
               </Button>
-              <Button variant="outline" className="rounded-full">
+              {/* <Button variant="outline" className="rounded-full">
                 <Download />
                 Download CV
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
