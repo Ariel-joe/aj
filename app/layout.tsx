@@ -14,7 +14,7 @@ const outfit = Outfit({
   weight: ["400", "700"], // Adjust weights as needed
 });
 export const metadata: Metadata = {
-  title: "Ariel Joe Portfolio - Beautiful Shadcn UI Landing Page",
+  title: "Ariel Joe Portfolio",
   description: "Ariel Joe is a full stack software engineer.",
   icons: "/unofficial-logo-rm-bg.png"
 };
