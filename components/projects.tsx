@@ -35,7 +35,7 @@ const ProjectCard = ({
 
       {/* Content */}
       <div className="flex-1 flex flex-col p-6">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <h3 className="text-xl font-semibold mb-2">{title}</h3>                               
         <p className="text-muted-foreground mb-4">{description}</p>
 
         {/* Technologies */}

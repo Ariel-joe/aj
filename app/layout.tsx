@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/next';
 // import { ThemeProvider } from "next-themes";
 import { Geist, Outfit } from "next/font/google";
 import "./globals.css";
@@ -29,7 +30,9 @@ export default function RootLayout({
       <body className={`${outfit.className} ${geistSans.className} antialiased`}>
         {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
         <Navbar />
-        <main>{children}</main>
+        <main>{children}
+          <Analytics />
+        </main>
         <Footer />
         {/* </ThemeProvider> */}
       </body>
