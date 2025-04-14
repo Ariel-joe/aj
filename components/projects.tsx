@@ -99,7 +99,7 @@ const Projects = () => {
         "A modern car wash management system that streamlines operations by enabling detailers to log customer car details while allowing managers to review and approve entries efficiently.",
       image: "/osharide.png",
       technologies: ["React", "Tailwindcss", "Epress.js", "Node.js", "MongoDB"],
-      liveUrl: "",
+      liveUrl: "https://osharide.vercel.app/",
       githubUrl: "https://github.com/Ariel-joe/car-wash-react.git",
     },
   ];
