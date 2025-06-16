@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import { Analytics } from '@vercel/analytics/next';
-// import { ThemeProvider } from "next-themes";
 import { Geist, Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+import { ThemeProvider } from "@/components/ui/theme-provider";
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -26,15 +26,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${outfit.className} ${geistSans.className} antialiased`}>
-        {/* <ThemeProvider attribute="class" defaultTheme="system" enableSystem> */}
+        <ThemeProvider attribute="class" defaultTheme="dark">
         <Navbar />
         <main>{children}
           <Analytics />
         </main>
         <Footer />
-        {/* </ThemeProvider> */}
+        </ThemeProvider>
       </body>
     </html>
   );

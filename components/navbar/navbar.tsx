@@ -3,6 +3,7 @@ import { GithubLogo } from "../icons";
 import { Logo } from "./logo";
 import { NavMenu } from "./nav-menu";
 import { NavigationSheet } from "./navigation-sheet";
+// import { ModeToggle } from "../theme-toggler";
 
 const Navbar = () => {
   return (
@@ -27,6 +28,8 @@ const Navbar = () => {
               <GithubLogo className="h-5! w-5!" />
             </a>
           </Button>
+
+            {/* <ModeToggle /> */}
 
           {/* Mobile Menu */}
           <div className="md:hidden">
