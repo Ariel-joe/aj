@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const features = [
   {
-    icon: "/javascript-logo.png",
+    icon: "/Javascript-logo.png",
     title: "JavaScript Proficiency",
     description:
       "Extensive experience in developing dynamic web applications and automation scripts using core JavaScript principles.",
