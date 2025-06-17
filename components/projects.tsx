@@ -78,6 +78,15 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
+      title: "Chama Finance Software",
+      description:
+        "Chama is a web-based financial management tool designed to support informal savings groups (commonly known as chamas) in managing their finances with ease, transparency, and accountability. The system was born out of a real need to streamline financial operations within my own group, where I served as the treasurer.",
+      image: "/chama-mockup.png",
+      technologies: ["Next.js", "Shadcn UI", "Tailwindcss", "Express.js", "Node.js", "MongoDB", "Daraja API", "Typescript", "Zustand" ],
+      liveUrl: "https://chama-blue.vercel.app/",
+      // githubUrl: "https://github.com/Ariel-joe/car-wash-react.git",
+    },
+    {
       title: "Kladi Outfits",
       description:
         "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
@@ -98,10 +107,10 @@ const Projects = () => {
       description:
         "A modern car wash management system that streamlines operations by enabling detailers to log customer car details while allowing managers to review and approve entries efficiently.",
       image: "/osharide.png",
-      technologies: ["React", "Tailwindcss", "Epress.js", "Node.js", "MongoDB"],
+      technologies: ["React", "Tailwindcss", "Express.js", "Node.js", "MongoDB"],
       liveUrl: "https://osharide.vercel.app/",
       githubUrl: "https://github.com/Ariel-joe/car-wash-react.git",
-    },
+    }
   ];
 
   return (
