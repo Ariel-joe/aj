@@ -35,7 +35,7 @@ const ProjectCard = ({
 
       {/* Content */}
       <div className="flex-1 flex flex-col p-6">
-        <h3 className="text-xl font-semibold mb-2">{title}</h3>                               
+        <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-muted-foreground mb-4">{description}</p>
 
         {/* Technologies */}
@@ -82,7 +82,17 @@ const Projects = () => {
       description:
         "Chama is a web-based financial management tool designed to support informal savings groups (commonly known as chamas) in managing their finances with ease, transparency, and accountability. The system was born out of a real need to streamline financial operations within my own group, where I served as the treasurer.",
       image: "/chama-mockup.png",
-      technologies: ["Next.js", "Shadcn UI", "Tailwindcss", "Express.js", "Node.js", "MongoDB", "Daraja API", "Typescript", "Zustand" ],
+      technologies: [
+        "Next.js",
+        "Shadcn UI",
+        "Tailwindcss",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+        "Daraja API",
+        "Typescript",
+        "Zustand",
+      ],
       liveUrl: "https://chama-blue.vercel.app/",
       // githubUrl: "https://github.com/Ariel-joe/car-wash-react.git",
     },
@@ -90,7 +100,7 @@ const Projects = () => {
       title: "Kladi Outfits",
       description:
         "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "/kladi-outfits.png",
+      image: "/kladi-mockup.png",
       technologies: [
         "Javascript",
         "React",
@@ -106,11 +116,17 @@ const Projects = () => {
       title: "Osharide Carwash Management System",
       description:
         "A modern car wash management system that streamlines operations by enabling detailers to log customer car details while allowing managers to review and approve entries efficiently.",
-      image: "/osharide.png",
-      technologies: ["React", "Tailwindcss", "Express.js", "Node.js", "MongoDB"],
+      image: "/osharide-mockup.png",
+      technologies: [
+        "React",
+        "Tailwindcss",
+        "Express.js",
+        "Node.js",
+        "MongoDB",
+      ],
       liveUrl: "https://osharide.vercel.app/",
       githubUrl: "https://github.com/Ariel-joe/car-wash-react.git",
-    }
+    },
   ];
 
   return (

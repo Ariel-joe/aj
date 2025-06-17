@@ -56,10 +56,10 @@ const Experience = () => {
     {
       title: "Backend Developer",
       company: "Megadel Africa",
-      period: "2025 - Present",
+      period: "2025 March - 2025 June",
       description:
         "Developing enterprise-scale web applications, and implemented best practices for code quality and performance optimization.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+      technologies: ["Next.js", "Javascript", "TypeScript", "AWS", "MongoDB", "python"],
     },
     {
       title: "Full Stack Developer",
