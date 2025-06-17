@@ -2,42 +2,41 @@ import Image from "next/image";
 
 const features = [
   {
-    icon: "/Javascript-logo.png",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
     title: "JavaScript Proficiency",
     description:
       "Extensive experience in developing dynamic web applications and automation scripts using core JavaScript principles.",
   },
   {
-    icon: "/typescript-logo.png",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg",
     title: "TypeScript Expertise",
     description:
       "Implementation of strongly typed solutions for enhanced code maintainability and error prevention in complex projects.",
   },
   {
-    icon: "/Python-logo-notext.svg.png",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
     title: "Python Automation and Scripting",
     description:
       "Utilization of Python for backend automation, data processing, and exploratory projects in artificial intelligence.",
   },
   {
-    icon: "/react-1-logo-png-transparent.png",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
     title: "React.js UI Development",
     description:
       "Development of high-performance, interactive user interfaces leveraging React.js hooks, state management, and component architecture.",
   },
   {
-    icon: "/next-js-logo-png_seeklogo-449824.png",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
     title: "Next.js Full-Stack Applications",
     description:
       "Building scalable, SEO-optimized full-stack applications with Next.js, utilizing server-side rendering and static site generation.",
   },
   {
-    icon: "/tailwindcss.png",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
     title: "Tailwind CSS Styling",
     description:
       "Rapid development of responsive and modern user interfaces with Tailwind CSS, emphasizing utility-first design principles.",
   },
-  
 ];
 
 const Features = () => {
