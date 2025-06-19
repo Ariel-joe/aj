@@ -56,10 +56,17 @@ const Experience = () => {
     {
       title: "Backend Developer",
       company: "Megadel Africa",
-      period: "2025 March - 2025 June",
+      period: "2025 March - 2025 May",
       description:
         "Developing enterprise-scale web applications, and implemented best practices for code quality and performance optimization.",
-      technologies: ["Next.js", "Javascript", "TypeScript", "AWS", "MongoDB", "python"],
+      technologies: [
+        "Next.js",
+        "Javascript",
+        "TypeScript",
+        "AWS",
+        "MongoDB",
+        "python",
+      ],
     },
     {
       title: "Full Stack Developer",
@@ -68,6 +75,14 @@ const Experience = () => {
       description:
         "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
       technologies: ["React", "Express.js", "MongoDB", "Javascript", "Python"],
+    },
+    {
+      title: "Internship",
+      company: "Together For Better Foundation",
+      period: "2023 Apr - 2023 Aug",
+      description:
+        "I supported the digital aspects of field operations by helping collect, organize, and manage student and school data gathered during outreach programs. I worked closely with program officers to digitize records, streamline reporting using tools like Excel and Google Sheets, and contribute to monitoring and evaluation efforts.",
+      technologies: ["Microsoft Excel", "Microsoft Access", "Google-Sheets", "Data Collection softwares"],
     },
   ];
 
